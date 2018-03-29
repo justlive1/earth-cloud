@@ -1,0 +1,8 @@
+spring:
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181
+      discovery:
+        metadata:
+          user.name: ${security.user.name:}
+          user.password: ${security.user.password:}
