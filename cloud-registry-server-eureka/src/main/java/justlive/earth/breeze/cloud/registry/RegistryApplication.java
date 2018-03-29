@@ -17,7 +17,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @author wubo
  *
  */
-@SpringBootApplication(scanBasePackages = "net.oschina.git.justlive1.breeze",
+@SpringBootApplication(scanBasePackages = "justlive.earth.breeze",
     exclude = {SecurityAutoConfiguration.class, ManagementWebSecurityAutoConfiguration.class})
 @EnableEurekaServer
 @Controller
