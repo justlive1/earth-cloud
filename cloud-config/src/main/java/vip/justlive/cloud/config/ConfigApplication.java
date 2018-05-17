@@ -31,7 +31,7 @@ import org.springframework.cloud.config.server.EnableConfigServer;
     exclude = {SecurityAutoConfiguration.class, ManagementWebSecurityAutoConfiguration.class})
 @EnableDiscoveryClient
 @EnableConfigServer
-@SpringBootApplication(scanBasePackages = "justlive.earth.breeze")
+@SpringBootApplication(scanBasePackages = "vip.justlive")
 public class ConfigApplication {
 
   public static void main(String[] args) {

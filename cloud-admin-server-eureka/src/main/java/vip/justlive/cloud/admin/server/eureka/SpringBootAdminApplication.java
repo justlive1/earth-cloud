@@ -30,7 +30,7 @@ import de.codecentric.boot.admin.config.EnableAdminServer;
  *
  */
 @Configuration
-@ComponentScan(basePackages = "justlive.earth.breeze")
+@ComponentScan(basePackages = "vip.justlive")
 @EnableAutoConfiguration(
     exclude = {SecurityAutoConfiguration.class, ManagementWebSecurityAutoConfiguration.class})
 @EnableDiscoveryClient

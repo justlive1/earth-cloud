@@ -30,7 +30,7 @@ import org.springframework.web.servlet.ModelAndView;
  * @author wubo
  *
  */
-@SpringBootApplication(scanBasePackages = "justlive.earth.breeze",
+@SpringBootApplication(scanBasePackages = "vip.justlive",
     exclude = {SecurityAutoConfiguration.class, ManagementWebSecurityAutoConfiguration.class})
 @EnableEurekaServer
 @Controller

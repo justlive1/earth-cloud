@@ -31,7 +31,7 @@ import de.codecentric.boot.admin.config.EnableAdminServer;
     exclude = {SecurityAutoConfiguration.class, ManagementWebSecurityAutoConfiguration.class})
 @EnableAdminServer
 @EnableCircuitBreaker
-@SpringBootApplication(scanBasePackages = "justlive.earth.breeze")
+@SpringBootApplication(scanBasePackages = "vip.justlive")
 public class SpringBootAdminApplication {
 
   public static void main(String[] args) {
